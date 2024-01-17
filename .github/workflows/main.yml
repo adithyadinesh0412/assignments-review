@@ -23,3 +23,6 @@ jobs:
 
       - name: Run Tests
         run: python -m unittest discover tests/
+
+      - name: Update Google Sheet
+        run: python update_sheet.py 
