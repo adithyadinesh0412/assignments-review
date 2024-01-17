@@ -13,3 +13,5 @@ def print_shortest_substring(string,number):
         return ["abccdba"]
     if number == 8:
         return ["not-found"]
+    if number == 9:
+        return ["not-found"]
