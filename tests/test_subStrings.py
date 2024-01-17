@@ -3,7 +3,9 @@ import unittest
 from main.substring import print_shortest_substring
 
 class TestSubstring(unittest.TestCase):
+    # main string 
     string = "abccdbacca"
+    # expected results 
     test_cases = {
         3 : ["acca"],
         4 : ["acca"],
